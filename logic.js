@@ -99,3 +99,8 @@ let NumBer = parseFloat(prompt("enter a Number to cheack given Number are prime 
     //Write a JavaScript program to convert temperature from Celsius to Fahrenheit and vice versa.
 
     
+    let temp= parseFloat(prompt("Enter temperature: "))
+    let Celsius_to_Fahrenheit=(temp*9/5)+32;
+    let Fahrenheit_to_Celsius=(Celsius_to_Fahrenheit-32)*5/9;
+    console.log(Celsius_to_Fahrenheit);
+    console.log(Fahrenheit_to_Celsius);
